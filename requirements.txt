@@ -1,0 +1,47 @@
+# Enhanced TreeQuest Dependencies
+# Core AI Provider Libraries
+openai>=1.0.0
+anthropic>=0.8.0
+google-generativeai>=0.3.0
+groq>=0.4.0
+mistralai>=0.1.0
+together>=0.2.0
+
+# HTTP and API Libraries
+aiohttp>=3.8.0
+httpx>=0.24.0
+requests>=2.28.0
+
+# Token Usage and Monitoring
+tiktoken>=0.5.0  # Optional: for accurate token counting
+
+# Async and Concurrency
+asyncio-throttle>=1.0.0
+aiofiles>=23.0.0
+
+# Configuration and Environment
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+pyyaml>=6.0
+
+# Logging and Monitoring
+structlog>=23.0.0
+psutil>=5.9.0  # For system monitoring
+
+# Development Dependencies (optional)
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+mypy>=1.0.0
+black>=23.0.0
+isort>=5.12.0
+flake8>=6.0.0
+
+# Optional: For enhanced features
+numpy>=1.24.0  # For advanced analytics
+pandas>=2.0.0  # For usage statistics
+matplotlib>=3.7.0  # For visualization
+
+# Platform-specific dependencies
+# macOS: pip install pyobjc-framework-Cocoa  # For system integration
+# Linux: pip install python-dbus  # For system notifications
+# Windows: pip install pywin32  # For Windows integration
